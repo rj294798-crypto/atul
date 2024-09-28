@@ -135,6 +135,19 @@ const Contact = () => {
             {loading ? "Sending..." : "Submit"}
           </button>
         </form>
+
+        {/* Resume Button */}
+        <div className='mt-10'>
+          <a
+            href='/path-to-your-resume.pdf' // Replace this with the correct path to your PDF
+            target='_blank'
+            rel='noopener noreferrer'
+            className='btn'
+          >
+            View Resume
+          </a>
+        </div>
+        
       </div>
 
       <div className='lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
