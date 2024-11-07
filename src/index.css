@@ -35,7 +35,11 @@ body:has(.card[data-color="green"]:hover) {
   }
 
   .blue-gradient_text {
-    @apply bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-[#7ebaff] to-[#4784c9] bg-clip-text text-transparent;
+  }
+
+  .blue-orange-gradient_text {
+    @apply bg-gradient-to-r from-[#4A90E2] to-[#FF7F50] bg-clip-text text-transparent;
   }
 
   .input {
@@ -167,11 +171,11 @@ body:has(.card[data-color="green"]:hover) {
 
 /* Neo Brutalism */
 .neo-brutalism-blue {
-  background: #2b77e7;
+  background: #4a90e2;
   position: relative;
   border-radius: 10px;
-  border: #2b77e7;
-  box-shadow: 0.6vmin 0.6vmin #336cc1, 1vmin 1vmin #0092db, 1vmin 1vmin #0092db,
+  border: #4a90e2;
+  box-shadow: 0.6vmin 0.6vmin #3a7dcb, 1vmin 1vmin #3473bb, 1vmin 1vmin #0092db,
     0.65vmin 1vmin #0092db, 1vmin 0.65vmin #0092db;
 }
 
