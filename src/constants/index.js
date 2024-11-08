@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { BCS } from "../assets/images";
 import {
   car,
   contact,
@@ -144,55 +144,29 @@ export const techStack = [
 
 export const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#accbe1",
-    date: "March 2020 - April 2021",
+    title: "Full-stack Developer",
+    company_name: "BCSolutions",
+    icon: BCS,
+    iconBg: "#FFF",
+    date: "April 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "As a key member of the R&D team, I specialize in developing and maintaining eas'Invoice, a cutting-edge e-invoicing solution.",
+      "My expertise lies in crafting seamless functionalities, ensuring eas'Invoice efficiently handles formats like Factur-X.",
+      "I leverage JavaScript, React, and Node.js to engineer robust solutions.",
+      "My solutions streamline processes, reduce costs, and secure invoice delivery.",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#fbc3bc",
-    date: "Jan 2021 - Feb 2022",
+    title: "Freelance Full-stack Developer",
+    company_name: "MIRAL | KONFIGEAR | LEWINNERSCLUB | TM-CONSULTING | ...",
+    iconBg: "#BBB",
+    date: "May 2020 - April 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#b7e4c7",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#a2d2ff",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I've developed interactive web solutions for clients across Morocco, France, and UAE, collaborating with MIRAL, KONFIGEAR, and WINNERS CLUB.",
+      "My experience spans technologies like React.js, Node.js, and database integration with MongoDB and Firebase.",
+      "Additionally, I have experience in WordPress CMS for content management, alongside Shopify theme development.",
+      "I have implemented payment solutions using Stripe for subscriptions and other payment methods.",
+      "With experience in Azure and GitLab for CI/CD pipelines and repository management, I deliver scalable, customized solutions tailored to client needs.",
     ],
   },
 ];
@@ -206,12 +180,12 @@ export const socialLinks = [
   {
     name: "GitHub",
     iconUrl: github,
-    link: "https://github.com/YourGitHubUsername",
+    link: "https://github.com/Hermes-fire",
   },
   {
     name: "LinkedIn",
     iconUrl: linkedin,
-    link: "https://www.linkedin.com/in/YourLinkedInUsername",
+    link: "https://www.linkedin.com/in/aminesadali",
   },
 ];
 
