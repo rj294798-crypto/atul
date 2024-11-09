@@ -215,7 +215,7 @@ export const projects = [
   description array
 
   project list:
-  eas'Invoice '(needs screen)
+  eas'Invoice '(needs screen) 
   BRAVASHOTEL Calendar ok
   KONFIGEAR ok
   MIRAL ok
