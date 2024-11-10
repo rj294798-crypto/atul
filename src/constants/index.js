@@ -1,4 +1,17 @@
-import { BCS } from "../assets/images";
+import {
+  BCS,
+  lewinnersclub,
+  lewinnersclub_2,
+  wbwabudhabi,
+  yasislandabudhabi,
+  ferrariworldabudhabi,
+  Mirror_configurator,
+  Mirror_configurator_2,
+  Watch_configurator_dashboard,
+  bravahotels_1,
+  bravahotels_2,
+  bravahotels_3,
+} from "../assets/images";
 import {
   car,
   contact,
@@ -191,34 +204,38 @@ export const socialLinks = [
 
 export const projects = [
   {
-    iconUrl: pricewise,
-    theme: "btn-back-red",
-    name: "Amazon Price Tracker",
+    name: "MIRAL",
     description:
-      "Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.",
-    link: "https://github.com/adrianhajdin/pricewise",
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    linkList: ["https://lewinnersclub.com/en/"],
+    imageList: [wbwabudhabi, yasislandabudhabi, ferrariworldabudhabi],
   },
   {
-    iconUrl: threads,
-    theme: "btn-back-green",
-    name: "Full Stack Threads Clone",
+    name: "BRAVA HOTELES",
     description:
-      'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-    link: "https://github.com/adrianhajdin/threads",
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    linkList: [],
+    imageList: [bravahotels_1, bravahotels_2, bravahotels_3],
+  },
+  {
+    name: "KONFIGEAR",
+    description:
+      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+    linkList: [],
+    imageList: [
+      Mirror_configurator,
+      Mirror_configurator_2,
+      Watch_configurator_dashboard,
+    ],
+  },
+  {
+    name: "LEWINNERSCLUB",
+    description:
+      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+    linkList: ["https://lewinnersclub.com/en/"],
+    imageList: [lewinnersclub, lewinnersclub_2],
   },
   /* 
-  TO DO: Generate data the think about improvement to the component to hold images
-
-  object:
-  image array
-  link array
-  description array
-
-  project list:
-  eas'Invoice '(needs screen) 
-  BRAVASHOTEL Calendar ok
-  KONFIGEAR ok
-  MIRAL ok
-  LEWINNERSCLUB ok
+  ADD eas'Invoice
   */
 ];
