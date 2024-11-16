@@ -200,20 +200,25 @@ export const projects = [
   {
     name: 'MIRAL',
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
-    linkList: ['https://lewinnersclub.com/en/', 'https://lewinnersclub.com/en/'],
+      'I worked as a Frontend Developer on the development and maintenance of websites for multiple Miral attraction parks, including renowned destinations like Ferrari World and Warner Bros. Abu Dhabi. My primary focus was on building and enhancing user-facing features using React, ensuring both seamless functionality and optimal performance. One of my key responsibilities was ensuring pixel-perfect implementation. I meticulously translated design mockups from the UI/UX designers into responsive, visually precise components. I adhered to strict design guidelines for fonts, layouts, and device responsiveness, ensuring a consistent experience across all devices. I also collaborated closely with the API and CMS teams. Together, we defined and integrated the data structure needed to ensure smooth interaction between the frontend and backend. This coordination helped streamline the development process and improved the efficiency of data handling. In addition, I worked in a monorepo environment using Lerna to manage the project. This setup allowed for efficient codebase organization and facilitated collaboration across teams, ensuring that all components were well-aligned and easy to maintain. Overall, this experience helped me refine my React skills, enhance my ability to work cross-functionally, and contribute to delivering high-quality, user-centric websites for world-class attraction parks.',
+    linkList: [
+      'https://www.yasisland.com/',
+      'https://www.wbworldabudhabi.com/',
+      'https://www.ferrariworldabudhabi.com/'
+    ],
     imageList: [yasislandabudhabi, wbwabudhabi, ferrariworldabudhabi]
   },
   {
     name: 'BRAVA HOTELES',
-    description: 'It is a long established fact that a reader will be distracted by the readable',
+    description:
+      "I led the development of a web solution for Bravas Hotel's Spa & Leisure services, handling everything from inception to post-launch. The project was built using the MERN stack, allowing me to manage both frontend and backend tasks seamlessly. I designed the database schema and developed the APIs, ensuring they were secure and efficient. On the frontend, I built a responsive interface with React, while the backend was powered by Node.js and Express. To deliver a polished product, I hired a UI Designer and a Junior Developer. I coordinated the team, ensuring alignment with the client’s vision and smooth execution. I worked closely with stakeholders, keeping them updated throughout the process. After launch, I handled production maintenance, ensuring it could handle large data loads. I also focused on bug fixing and performance optimization. This project sharpened my skills in full-stack development, team leadership, and stakeholder communication. It was a rewarding experience that showcased my ability to deliver quality solutions from start to finish.",
     linkList: [],
     imageList: [bravahotels_1, bravahotels_2, bravahotels_3]
   },
   {
     name: 'KONFIGEAR',
     description:
-      "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      'I developed advanced web solutions for 3D product configurators, focusing on products like hats, mirrors, watches, and more. Users could design and fully customize their products within an immersive 3D interface, selecting materials, colors, shapes, and additional features, ensuring a highly interactive and personalized experience. The platforms were built using React, Three.js for dynamic 3D rendering, and Firebase. In addition, I designed and implemented intuitive admin dashboards, enabling administrators to efficiently manage product configurations.',
     linkList: [],
     imageList: [Mirror_configurator, Mirror_configurator_2, Watch_configurator_dashboard]
   },
