@@ -10,7 +10,11 @@ import {
   Watch_configurator_dashboard,
   bravahotels_1,
   bravahotels_2,
-  bravahotels_3
+  bravahotels_3,
+  easInvoice,
+  easInvoice_1,
+  easInvoice_2,
+  easInvoice_3
 } from '../assets/images';
 import {
   contact,
@@ -198,6 +202,13 @@ export const socialLinks = [
 
 export const projects = [
   {
+    name: 'BCSolutions',
+    description:
+      "I have contributed to the development of eas'Invoice, a middleware web application ensuring tax compliance across 60+ countries. The platform processes documents through configurable workflows, integrates with multiple services, and efficiently manages responses. My work has focused on delivering advanced backend solutions using Node.js and Express, while also contributing to the frontend. I emphasize high-quality code, comprehensive unit and functional testing, and effective collaboration within the development team. I have been involved in major refactors, the implementation of new features, and the optimization of workflows, ensuring the app's scalability and reliability. This project has allowed me to refine my skills in complex backend systems, code quality, and teamwork in a fast-paced enterprise environment. Working in an Agile environment, I actively participated in sprint planning, daily stand-ups, and retrospectives. This approach helped me quickly adapt to changing requirements while continuously improving the development process. I collaborated closely with cross-functional teams, ensuring smooth integration and alignment across different components of the application. This experience enhanced my problem-solving abilities and reinforced the importance of communication and collaboration in delivering high-quality solutions",
+    linkList: ['https://bcsolutions.fr/en/easinvoice/'],
+    imageList: [easInvoice, easInvoice_1, easInvoice_2, easInvoice_3]
+  },
+  {
     name: 'MIRAL',
     description:
       'I worked as a Frontend Developer on the development and maintenance of websites for multiple Miral attraction parks, including renowned destinations like Ferrari World and Warner Bros. Abu Dhabi. My primary focus was on building and enhancing user-facing features using React, ensuring both seamless functionality and optimal performance. One of my key responsibilities was ensuring pixel-perfect implementation. I meticulously translated design mockups from the UI/UX designers into responsive, visually precise components. I adhered to strict design guidelines for fonts, layouts, and device responsiveness, ensuring a consistent experience across all devices. I also collaborated closely with the API and CMS teams. Together, we defined and integrated the data structure needed to ensure smooth interaction between the frontend and backend. This coordination helped streamline the development process and improved the efficiency of data handling. In addition, I worked in a monorepo environment using Lerna to manage the project. This setup allowed for efficient codebase organization and facilitated collaboration across teams, ensuring that all components were well-aligned and easy to maintain. Overall, this experience helped me refine my React skills, enhance my ability to work cross-functionally, and contribute to delivering high-quality, user-centric websites for world-class attraction parks.',
@@ -225,7 +236,7 @@ export const projects = [
   {
     name: 'LEWINNERSCLUB',
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      'For over two years, I was deeply involved in the development of LEWINNERSCLUB, a feature-rich web application. I delivered a wide range of improvements, including Stripe subscriptions, an AI-powered tool for marketing text generation, an ebook store, and a complete interface refactor to modernize the app and enhance usability. In addition to these highlights, I implemented many other features and optimizations that strengthened the platform’s functionality and performance. I ensured seamless operation through careful deployment, regular updates, and efficient issue resolution. This project allowed me to grow as a developer while building a robust and user-centric web app.',
     linkList: ['https://lewinnersclub.com/en/'],
     imageList: [lewinnersclub, lewinnersclub_2]
   }

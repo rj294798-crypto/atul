@@ -16,6 +16,14 @@ import bravahotels_1 from './bravahotels_1.jpg';
 import bravahotels_2 from './bravahotels_2.jpg';
 import bravahotels_3 from './bravahotels_3.jpg';
 
+// TO DO: add easInvoice workflow configuration images
+import easInvoice from "./eas'Invoice.jpg";
+import easInvoice_1 from "./eas'Invoice_1.jpg";
+import easInvoice_2 from "./eas'Invoice_2.jpg";
+import easInvoice_3 from "./eas'Invoice_3.jpg";
+
+// TO DO: use webp images
+
 export {
   BCS,
   logo,
@@ -29,5 +37,9 @@ export {
   Watch_configurator_dashboard,
   bravahotels_1,
   bravahotels_2,
-  bravahotels_3
+  bravahotels_3,
+  easInvoice,
+  easInvoice_1,
+  easInvoice_2,
+  easInvoice_3
 };
